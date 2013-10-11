@@ -1,0 +1,121 @@
+\begin{thebibliography}{10}
+
+\bibitem{obof}
+F.f. Li, ``A bayesian hierarchical model for learning natural scene
+  categories,'' CVPR, pp.524--531, 2005.
+
+\bibitem{bgf}
+H.~J\'egou, M.~Douze, and C.~Schmid, ``Improving bag-of-features for large
+  scale image search,'' IJCV, vol.87, no.3, pp.316--336, February\ 2010.
+
+\bibitem{spmk}
+S.~Lazebnik, C.~Schmid, and J.~Ponce, ``Beyond bags of features: Spatial
+  pyramid matching for recognizing natural scene categories,'' CVPR,
+  pp.2169--2178, 2006.
+
+\bibitem{ac30}
+V.~Ferrari, F.~Jurie, and C.~Schmid, ``Accurate object detection with
+  deformable shape models learnt from images,'' CVPR, pp.1--8, 2007.
+
+\bibitem{ac27}
+A.~Lehmann, B.~Leibe, and L.~Van~Gool, ``Fast prism: Branch and bound hough
+  transform for object class detection,'' IJCV, vol.94, no.2, pp.175--197,
+  September\ 2011.
+
+\bibitem{kmts}
+J.~Shawe-Taylor and N.~Cristianini, Kernel Methods for Pattern Analysis,
+  Cambridge University Press, New York, NY, USA, 2004.
+
+\bibitem{ac3}
+R.~Fergus, P.~Perona, and A.~Zisserman, ``Object class recognition by
+  unsupervised scale-invariant learning,'' CVPR, pp.II: 264--271, 2003.
+
+\bibitem{ac222}
+H.~Jiang and S.~Yu, ``Linear solution to scale and rotation invariant object
+  matching,'' CVPR, pp.2474--2481, 2009.
+
+\bibitem{lbt1}
+C.~Liu, J.~Yuen, and A.~Torralba, ``Nonparametric scene parsing via label
+  transfer,'' PAMI, vol.33, no.12, pp.2368--2382, Dec.\ 2011.
+
+\bibitem{ij4}
+N.~Dalal and B.~Triggs, ``Histograms of oriented gradients for human
+  detection,'' CVPR, pp.886--893, 2005.
+
+\bibitem{dpm1}
+P.F. Felzenszwalb, R.B. Girshick, D.~McAllester, and D.~Ramanan, ``Object
+  detection with discriminatively trained part-based models,'' PAMI, vol.32,
+  no.9, pp.1627--1645, 2010.
+
+\bibitem{ac31}
+P.F. Felzenszwalb, D.A. McAllester, and D.~Ramanan, ``A discriminatively
+  trained, multiscale, deformable part model,'' CVPR, pp.1--8, 2008.
+
+\bibitem{dpm2}
+P.F. Felzenszwalb, R.B. Girshick, and D.A. McAllester, ``Cascade object
+  detection with deformable part models,'' CVPR, pp.2241--2248, 2010.
+
+\bibitem{dpm3}
+M.~Pedersoli, A.~Vedaldi, and J.~Gonz{\`a}lez, ``A coarse-to-fine approach for
+  fast deformable object detection,'' CVPR, pp.1353--1360, 2011.
+
+\bibitem{spm}
+H.~Pirsiavash and D.~Ramanan, ``Steerable part models,'' CVPR, pp.3226--3233,
+  2012.
+
+\bibitem{spltm}
+H.O. Song, S.~Zickler, T.~Althoff, R.~Girshick, M.~Fritz, C.~Geyer,
+  P.~Felzenszwalb, and T.~Darrell, ``Sparselet models for efficient multiclass
+  object detection,'' ECCV, pp.716--723, 2012.
+
+\bibitem{408}
+T.~Dean, M.~Ruzon, M.~Segal, J.~Shlens, S.~Vijayanarasimhan, and J.~Yagnik,
+  ``Fast, accurate detection of 100,000 object classes on a single machine,''
+  CVPR, 2013.
+
+\bibitem{lsh}
+A.~Gionis, P.~Indyk, and R.~Motwani, ``Similarity search in high dimensions via
+  hashing,'' VLDB, pp.518--529, 1999.
+
+\bibitem{hdpm}
+L.L. Zhu, Y.~Chen, A.~Yuille, and W.~Freeman, ``Latent hierarchical structural
+  learning for object detection,'' CVPR, pp.1062--1069, 2010.
+
+\bibitem{mvdpm}
+R.J. L{\'o}pez-Sastre, T.~Tuytelaars, and S.~Savarese, ``Deformable part models
+  revisited: A performance evaluation for object category pose estimation,''
+  ICCV Workshops, pp.1052--1059, 2011.
+
+\bibitem{pmk}
+K.~Grauman and T.~Darrell, ``The pyramid match kernel: Discriminative
+  classification with sets of image features,'' ICCV, pp.1458--1465, 2005.
+
+\bibitem{bab}
+C.H. Lampert, M.B. Blaschko, and T.~Hofmann, ``Efficient subwindow search: A
+  branch and bound framework for object localization,'' PAMI, vol.31, no.12,
+  pp.2129--2142, 2009.
+
+\bibitem{spen}
+B.~Olshausen and D.~Field, ``Emergence of simple-cell receptive field
+  properties by learning a sparse code for natural images,'' Nature, vol.381,
+  pp.607--609, June\ 1996.
+
+\bibitem{ha}
+H.W. Kuhn, ``The hungarian method for the assignment problem,'' Naval Research
+  Logistics Quarterly, pp.83--97, 1955.
+
+\bibitem{lb1}
+B.~Leibe, A.~Leonardis, and B.~Schiele, ``Robust object detection with
+  interleaved categorization and segmentation,'' IJCV, vol.77, no.1-3,
+  pp.259--289, May\ 2008.
+
+\bibitem{cds}
+S.~Agarwal, A.~Awan, and D.~Roth, ``Learning to detect objects in images via a
+  sparse, part-based representation,'' PAMI, vol.26, no.11, pp.1475--1490,
+  Nov.\ 2004.
+
+\bibitem{lwz}
+Y.~Liu, X.~Wang, and H.~Zha, ``Dimension amnesic pyramid match kernel.,'' AAAI,
+  pp.652--658, 2008.
+
+\end{thebibliography}
