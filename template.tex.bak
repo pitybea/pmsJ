@@ -11,7 +11,7 @@
 \usepackage[dvips]{graphicx}
 \usepackage{times}
 
-\usepackage{amsmath} 
+\usepackage{amsmath}
 \usepackage{times}
 \usepackage[varg]{txfonts}
 \usepackage{algorithmic}
@@ -28,8 +28,8 @@
 %\title[title for header]{title}
 %\titlenote{}
 \authorlist{% fill arguments of \authorentry, otherwise error will be caused.
- \authorentry{}{}{}
- \authorentry{name}{membership}{affiliate label}
+ %\authorentry{}{}{}
+ \authorentry[wangzp@cvl.iis.u-tokyo.ac.jp]{Zhipeng Wang}{membership}{affiliate label}
  \authorentry{name}{membership}{affiliate label}[present affiliate label]
  \authorentry[e-mail address]{name}{membership}{affiliate label}
  \authorentry[e-mail address]{name}{membership}{affiliate label}[present affiliate label]
@@ -37,8 +37,8 @@
 \affiliate[affiliate label]{The author is with the  }
 %\paffiliate[present affiliate label]{Presently, the author is with the }
 
-\received{2011}{1}{1}
-\revised{2011}{1}{1}
+%\received{2011}{1}{1}
+%\revised{2011}{1}{1}
 %\finalreceived{2011}{1}{1}
 
 %% <local definitions here>
@@ -48,10 +48,10 @@
 \begin{document}
 \maketitle
 \begin{summary}
-
+Visual object detection is still a difficult task. This paper proposes an detection method which is very efficient in both learning and detection phases. Pyramid match is employed by the method to accelerate both learning and detection. Compared with state-of-the-art detection methods on two challenging datasets, the proposed method gives competitive experimental results.
 \end{summary}
 \begin{keywords}
-
+Object detection, Fast voting
 \end{keywords}
 
 \section{Introduction}
@@ -67,7 +67,7 @@ Bag-of-features~\cite{obof,bgf} schema can be considered as the watershed betwee
 
 Obviously, each object is considered as a whole during detection in this method.
 
-The proposed method also has several appealing properties, which include but not limited to:
+The proposed method  has several appealing properties, including, but not limited to:
 \begin{itemize}
 \item {Feasibility of sequential/batch training, which will lead to easy deployment in distributed system.}
 \item {Space complexity of the model is $O(1)$. Since the capacity of the point set acting as the super template is finite, and the size of the model is limited by the capacity.}
@@ -153,8 +153,8 @@ Let $\gamma  = \{ {{\bf{g}}_1},{{\bf{g}}_2},...,{{\bf{g}}}_L\}$ be an ordered se
 
 \begin{equation}
 \begin{aligned}
-&{\rm P}(S_1,S_2;\gamma)\\
-&=\frac{{\omega}_1 \times N(S_1,S_2; {\bf{g}}_1) + \sum\limits^L_{i=2}{{\omega}_i\times( N(S_1,S_2;{\bf{g}}_i)-N(S_1,S_2;{\bf{g}}_{i-1}) ) }}{m}
+{\rm P}(S_1,S_2;\gamma) =&\frac{{\omega}_1 \times N(S_1,S_2; {\bf{g}}_1) } {m}\\
+& +  \frac{ \sum\limits^L_{i=2}{{\omega}_i\times( N(S_1,S_2;{\bf{g}}_i)-N(S_1,S_2;{\bf{g}}_{i-1}) ) }}{m}
 .
 \end{aligned}
 \label{eq:pms1}
@@ -381,7 +381,7 @@ The size of $\gamma$, $L=l_{max} \times l_{max}$. For two dividing methods ${\bf
 \subsection{Deciding Weights for Dividing Methods}
 After how to divide the visual-spatial space is decided, the remaining task is, for each dividing method $\bf g$, defining a corresponding weight.
 When talking about two points which are found in the same grid under ${\bf g}=g(i,j)$, there is an upper bound to their $L1$-distance, which is given by
-\[D_{ub}=  {(d-2)\times \frac 1 {2^i} +2\times \frac 1 {2^j} } ,
+\[D_{up}=  {(d-2)\times \frac 1 {2^i} +2\times \frac 1 {2^j} } ,
 \]
  if unit length is assumed for all $({\bf p}_{max}^k - {\bf p}_{min}^k ),k \in \{1,2,...,d\}$. Since the first $(d-2)$ dimensions of each grid under $g(i,j)$ possess length of $\frac 1 {2^i}$, while the last 2 dimensions possess length of  $\frac 1 {2^j}$.
 
@@ -408,7 +408,7 @@ The total difference between two points found match in the same grid is modeled 
 \begin{equation}
 \label{eq:pms5}
 \begin{aligned}
-&\omega_{g(i,j)}=&\frac 1 {2 \pi \sigma_1 \sigma_2 \sqrt{1-\rho^2} }\\&\exp(- \frac 1 {1-\rho^2} ( \frac {(\frac {(d-2)}{2^i})^2} {{\sigma_1}^2}
+\omega_{g(i,j)}=&\frac 1 {2 \pi \sigma_1 \sigma_2 \sqrt{1-\rho^2} } \\ &\times\exp(- \frac 1 {1-\rho^2} ( \frac {(\frac {(d-2)}{2^i})^2} {{\sigma_1}^2}
 + \frac {(\frac {2}{2^j})^2} {{\sigma_2}^2}  - \frac {2 \rho \frac {(d-2)}{2^i}  \frac 2 {2^j}}{\sigma_1 \sigma_2} )).
 \end{aligned}
 \end{equation}
@@ -449,7 +449,8 @@ To estimate $a$, $b$, and $c$ for a particular $\gamma$, all positive training i
 \begin{equation}
 \begin{aligned}
 &{\rm P}(S_{I},S_{\bf{T}};\gamma)=\frac{ \sum\limits_{i,j}{{\omega}_{g(i,j)}\times N(S_I^{(i-1)},S_{\bf T}^{(i-1)}; g(i,j)) }}{m}\\
-&=t \sum\limits_{i,j}{  \exp(-a (\frac 1 {2^i})^2 - b (\frac 1 {2^j})^2 + c (\frac 1 {2^i}) (\frac 1 {2^j}))   \times \frac{ N(S_I^{(i-1)},S_{\bf T}^{(i-1)}; g(i,j))} m }\\
+=&t \sum\limits_{i,j}{ \exp(-a (\frac 1 {2^i})^2 - b (\frac 1 {2^j})^2 + c (\frac 1 {2^i}) (\frac 1 {2^j}))
+\times \frac{ N(S_I^{(i-1)},S_{\bf T}^{(i-1)}; g(i,j))} m }
 \end{aligned}
 \label{eq:pms7}
 \end{equation}
@@ -591,6 +592,10 @@ While the training time between the two models are 1 minute vs 16 hours. In this
 
 
 In Figure \ref{fig:c57}, the average numbers of matched pairs of positive and negative test examples are shown. It is clear that under finer dividing methods, positive test examples possess larger average number of matched pairs, while under coarser dividing methods, negative test examples possess larger matched number of matched pairs.
+
+\subsection{P-campus}
+
+The method is also tested on a dataset of pedestrians~\cite{wang1}.
 
 \begin{comment}
 \subsection{VOC2007 Cars}

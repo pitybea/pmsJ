@@ -118,4 +118,8 @@ S.~Agarwal, A.~Awan, and D.~Roth, ``Learning to detect objects in images via a
 Y.~Liu, X.~Wang, and H.~Zha, ``Dimension amnesic pyramid match kernel.,'' AAAI,
   pp.652--658, 2008.
 
+\bibitem{wang1}
+Z.~Wang, J.~Cui, H.~Zha, M.~Kagesawa, and K.~Ikeuchi, ``Object detection by
+  common fate hough transform,'' ACPR, pp.613 -- 617, 2010.
+
 \end{thebibliography}

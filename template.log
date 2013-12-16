@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.6.16)  14 NOV 2013 19:39
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.6.16)  17 NOV 2013 18:58
 entering extended mode
 **template.tex
 (F:\share\literature\my_paper\IEICE2013\template.tex
@@ -229,15 +229,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (C:\CTEX\MiKTeX\tex\latex\comment\comment.sty
 \CommentStream=\write3
  Excluding comment 'comment')
-\@toksi=\toks24
 
+Class ieice Warning: a space should be added between 1st and 2nd name: "name".
+
+\@toksi=\toks24
 
 Class ieice Warning: a space should be added between 1st and 2nd name: "name".
 
 \@toksii=\toks25
-
-Class ieice Warning: a space should be added between 1st and 2nd name: "name".
-
 
 Class ieice Warning: a space should be added between 1st and 2nd name: "name".
 
@@ -326,9 +325,9 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
  [1
 
 
-] [2]
+]
 File: pms1.eps Graphic file (type eps)
- <pms1.eps>
+ <pms1.eps> [2]
 File: pms2.eps Graphic file (type eps)
  <pms2.eps>
 [3] [4]
@@ -344,7 +343,7 @@ File: pdim.eps Graphic file (type eps)
 File: plmax.eps Graphic file (type eps)
  <plmax.eps>
 File: pvp.eps Graphic file (type eps)
- <pvp.eps> [7]
+ <pvp.eps>
 File: pnp.eps Graphic file (type eps)
  <pnp.eps>
 Overfull \hbox (8.0759pt too wide) in paragraph at lines 548--548
@@ -357,23 +356,32 @@ n/8 (2\OML/txmi/m/it/8 ; \OT1/txr/m/n/8 2)\OML/txmi/m/it/8 ; g\OT1/txr/m/n/8 (1
 xmi/m/it/8 ; \OT1/txr/m/n/8 0)\OMS/txsy/m/n/8 g$\OT1/txr/m/n/8 . 
  []
 
+[7]
 File: dpm.eps Graphic file (type eps)
-<dpm.eps>
+ <dpm.eps>
 File: hcom.eps Graphic file (type eps)
  <hcom.eps>
 File: ancp.eps Graphic file (type eps)
  <ancp.eps> [8]
-(F:\share\literature\my_paper\IEICE2013\template.bbl [9]) [10
+File: org36.jpg Graphic file (type eps)
+ <org36.jpg>
+File: org71.jpg Graphic file (type eps)
+ <org71.jpg>
+File: org261.jpg Graphic file (type eps)
+ <org261.jpg>
+File: org376.jpg Graphic file (type eps)
 
-]
-(F:\share\literature\my_paper\IEICE2013\template.aux) ) 
+<org376.jpg>
+File: cmf.eps Graphic file (type eps)
+ <cmf.eps> [9] (F:\share\literature\my_paper\IEICE2013\template.bbl) [10] (F:\s
+hare\literature\my_paper\IEICE2013\template.aux) ) 
 Here is how much of TeX's memory you used:
- 2544 strings out of 495355
- 28909 string characters out of 3183882
- 90154 words of memory out of 3000000
- 5683 multiletter control sequences out of 15000+200000
+ 2554 strings out of 495355
+ 28963 string characters out of 3183882
+ 91154 words of memory out of 3000000
+ 5687 multiletter control sequences out of 15000+200000
  31511 words of font info for 87 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  27i,13n,24p,1518b,695s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on template.dvi (10 pages, 72624 bytes).
+Output written on template.dvi (10 pages, 74932 bytes).
