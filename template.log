@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.6.16)  17 NOV 2013 18:58
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.6.12)  16 DEC 2013 20:42
 entering extended mode
 **template.tex
-(F:\share\literature\my_paper\IEICE2013\template.tex
+(D:\thesis\pmsJ\template.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(F:\share\literature\my_paper\IEICE2013\ieice.cls
+(D:\thesis\pmsJ\ieice.cls
 Document Class: ieice 2011/12/16 v1.8 for Transactions of IEICE
 \c@@paper=\count79
 \tn@cnt=\count80
@@ -240,12 +240,11 @@ Class ieice Warning: a space should be added between 1st and 2nd name: "name".
 
 Class ieice Warning: a space should be added between 1st and 2nd name: "name".
 
-(F:\share\literature\my_paper\IEICE2013\template.aux)
+(D:\thesis\pmsJ\template.aux)
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 48.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 48.
 
-
-(C:\CTEX\MiKTeX\tex\latex\txfonts\omltxmi.fd
+ (C:\CTEX\MiKTeX\tex\latex\txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 48.
@@ -373,15 +372,15 @@ File: org376.jpg Graphic file (type eps)
 
 <org376.jpg>
 File: cmf.eps Graphic file (type eps)
- <cmf.eps> [9] (F:\share\literature\my_paper\IEICE2013\template.bbl) [10] (F:\s
-hare\literature\my_paper\IEICE2013\template.aux) ) 
+ <cmf.eps> [9] (D:\thesis\pmsJ\template.bbl) [10]
+(D:\thesis\pmsJ\template.aux) ) 
 Here is how much of TeX's memory you used:
  2554 strings out of 495355
- 28963 string characters out of 3183882
+ 28699 string characters out of 3183882
  91154 words of memory out of 3000000
  5687 multiletter control sequences out of 15000+200000
  31511 words of font info for 87 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  27i,13n,24p,1518b,695s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on template.dvi (10 pages, 74932 bytes).
+Output written on template.dvi (10 pages, 70348 bytes).

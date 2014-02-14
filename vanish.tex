@@ -1,0 +1,98 @@
+%% template for IEICE Transactions
+%% v1.8 [2011/12/16]
+\documentclass[paper]{ieice}
+%\documentclass[invited]{ieice}
+%\documentclass[survey]{ieice}
+%\documentclass[invitedsurvey]{ieice}
+%\documentclass[review]{ieice}
+%\documentclass[tutorial]{ieice}
+%\documentclass[letter]{ieice}
+%\documentclass[brief]{ieice}
+\usepackage[dvips]{graphicx}
+\usepackage{times}
+
+\usepackage{amsmath}
+\usepackage{times}
+\usepackage[varg]{txfonts}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{comment}
+\setcounter{page}{1}
+%\breakauthorline{}% breaks lines after the n-th author
+
+\field{}
+%\SpecialIssue{}
+%\SpecialSection{}
+%\theme{}
+\title{Vanishing Point Detection by Integrating Geometric, Temporal, and Semantic Cues}
+%\title[title for header]{title}
+%\titlenote{}
+\authorlist{% fill arguments of \authorentry, otherwise error will be caused.
+ %\authorentry{}{}{}
+ %\authorentry[wangzp@cvl.iis.u-tokyo.ac.jp]{Zhipeng Wang}{membership}{affiliate label}
+ \authorentry{name}{membership}{affiliate label}[present affiliate label]
+ \authorentry[e-mail address]{name}{membership}{affiliate label}
+ \authorentry[e-mail address]{name}{membership}{affiliate label}[present affiliate label]
+}
+\affiliate[affiliate label]{The author is with the  }
+%\paffiliate[present affiliate label]{Presently, the author is with the }
+
+%\received{2011}{1}{1}
+%\revised{2011}{1}{1}
+%\finalreceived{2011}{1}{1}
+
+%% <local definitions here>
+
+%% </local definitions here>
+
+\begin{document}
+\maketitle
+\begin{summary}
+Vanishing point detection is applicable in a lot of scenarios.
+\end{summary}
+\begin{keywords}
+Object detection, Fast voting
+\end{keywords}
+
+\section{Introduction}
+
+
+$\{\bf g\},\{\bf t\},\{\bf s\}$
+
+\[
+\begin{aligned}
+&\arg\max  \limits_{\{{\bf v}^t\}} \log(P(\widetilde{\{\bf g\}},\widetilde{\{\bf t\}},\widetilde{\{\bf s\}},{\bf v}^{t-1}|{\bf v}^t) )\\
+&s.t.\ :\widetilde{\{\bf g\}} \subseteq \{\bf g\},\widetilde{\{\bf t\}} \subseteq \{\bf t\}, \widetilde{\{\bf s\}} \subseteq \{\bf s\}.\\
+\end{aligned}
+\]
+\[
+\begin{aligned}
+&\log(P(\widetilde{\{\bf g\}},\widetilde{\{\bf t\}},\widetilde{\{\bf s\}},{\bf v}^{t-1}|{\bf v}^t)\\ 
+&\approx \sum_{\{\bf g\}}{\pi({\bf g})\log(P({\bf g}|{\bf v}^t))}+\sum_{\{\bf t\}}{\pi({\bf t})\log(P({\bf t}|{\bf v}^t))}\\&+\sum_{\{\bf s\}}{\pi({\bf s})\log(P({\bf s}|{\bf v}^t))}+\log(P({\bf v}^{t-1}|{\bf v}^t))\\
+\end{aligned}
+\]
+
+
+
+
+\[
+\pi({\bf x})
+= \left\{ \begin{array}{*{20}{c}}
+   1   &{\bf x} \in \widetilde{\{{\bf x}\}} \\
+   0 &\mbox{otherwise}
+\end{array} \right. \mbox{for } {\bf x} = {\bf g},{\bf t},\mbox{ or }{\bf s}
+\]
+
+\[
+{\rm P}(S_1)=\sum_{i=1}^m {\omega({u_i})}
+\]
+
+\bibliographystyle{ieicetr}% bib style
+\bibliography{egbib}
+
+
+
+%\profile{}{}
+%\profile*{}{}% without picture of author's face
+
+\end{document}
