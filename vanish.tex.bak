@@ -84,7 +84,7 @@ $\{\bf g\},\{\bf t\},\{\bf s\}$
 \]
 
 \[
-P(S_1)=\sum_{i=1}^m {\omega{u_i}}
+{\rm P}(S_1)=\sum_{i=1}^m {\omega({u_i})}
 \]
 
 \bibliographystyle{ieicetr}% bib style

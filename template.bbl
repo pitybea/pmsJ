@@ -100,6 +100,11 @@ B.~Olshausen and D.~Field, ``Emergence of simple-cell receptive field
   properties by learning a sparse code for natural images,'' Nature, vol.381,
   pp.607--609, June\ 1996.
 
+\bibitem{ac18}
+K.~Ohba and K.~Ikeuchi, ``Detectability, uniqueness, and reliability of eigen
+  windows for stable verification of partially occluded objects,'' PAMI,
+  vol.19, no.9, pp.1043--1047, September\ 1997.
+
 \bibitem{ha}
 H.W. Kuhn, ``The hungarian method for the assignment problem,'' Naval Research
   Logistics Quarterly, pp.83--97, 1955.
@@ -121,5 +126,9 @@ Y.~Liu, X.~Wang, and H.~Zha, ``Dimension amnesic pyramid match kernel.,'' AAAI,
 \bibitem{wang1}
 Z.~Wang, J.~Cui, H.~Zha, M.~Kagesawa, and K.~Ikeuchi, ``Object detection by
   common fate hough transform,'' ACPR, pp.613 -- 617, 2010.
+
+\bibitem{ac9}
+O.~Barinova, V.~Lempitsky, and P.~Kohli, ``On detection of multiple object
+  instances using hough transforms,'' CVPR, pp.2233--2240, 2010.
 
 \end{thebibliography}

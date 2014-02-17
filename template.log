@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.6.12)  16 DEC 2013 20:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.16)  17 FEB 2014 20:47
 entering extended mode
 **template.tex
 (D:\thesis\pmsJ\template.tex
@@ -314,38 +314,79 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 8.54997pt on input line 49.
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
 (Font)              scaled to size 8.54997pt on input line 49.
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 72.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 71.
 
 (C:\CTEX\MiKTeX\tex\latex\txfonts\omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 72.
- [1
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 71.
+ [1{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
 
 
 ]
 File: pms1.eps Graphic file (type eps)
- <pms1.eps> [2]
+ <pms1.eps>
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 136--137
+ [][] 
+ []
+
 File: pms2.eps Graphic file (type eps)
- <pms2.eps>
-[3] [4]
+<pms2.eps>
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 143--144
+ [][] 
+ []
+
+[2]
+Overfull \hbox (24.79465pt too wide) detected at line 165
+[] []
+ []
+
+[3
+Non-PDF special ignored!
+Non-PDF special ignored!] [4]
 File: pms3.eps Graphic file (type eps)
- <pms3.eps> [5]
-Overfull \hbox (30.5777pt too wide) detected at line 456
+ <pms3.eps>
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 377--378
+ [][] 
+ []
+
+[5
+Non-PDF special ignored!]
+Overfull \hbox (13.44743pt too wide) detected at line 456
 [] []
  []
 
 [6]
+
+LaTeX Warning: Reference `fig:c5r' on page 7 undefined on input line 521.
+
 File: pdim.eps Graphic file (type eps)
- <pdim.eps>
+<pdim.eps>
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 527--528
+ [][] 
+ []
+
 File: plmax.eps Graphic file (type eps)
- <plmax.eps>
+<plmax.eps>
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 541--542
+ [][] 
+ []
+
 File: pvp.eps Graphic file (type eps)
- <pvp.eps>
+<pvp.eps>
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 554--555
+ [][] 
+ []
+
 File: pnp.eps Graphic file (type eps)
- <pnp.eps>
-Overfull \hbox (8.0759pt too wide) in paragraph at lines 548--548
+<pnp.eps>
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 567--568
+ [][] 
+ []
+
+
+Overfull \hbox (8.0759pt too wide) in paragraph at lines 570--570
 \OT1/txr/m/n/8 ing Al-go-rith-m 3[] with $\OML/txmi/m/it/8 l[] \OT1/txr/m/n/8 =
  5$ and $\OML/txmi/m/it/8  \OT1/txr/m/n/8 = \OMS/txsy/m/n/8 f\OML/txmi/m/it/8 
 g\OT1/txr/m/n/8 (4\OML/txmi/m/it/8 ; \OT1/txr/m/n/8 4)\OML/txmi/m/it/8 ; g\OT1/
@@ -355,13 +396,32 @@ n/8 (2\OML/txmi/m/it/8 ; \OT1/txr/m/n/8 2)\OML/txmi/m/it/8 ; g\OT1/txr/m/n/8 (1
 xmi/m/it/8 ; \OT1/txr/m/n/8 0)\OMS/txsy/m/n/8 g$\OT1/txr/m/n/8 . 
  []
 
-[7]
 File: dpm.eps Graphic file (type eps)
- <dpm.eps>
+<dpm.eps>
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 581--582
+ [][] 
+ []
+
+[7
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
 File: hcom.eps Graphic file (type eps)
  <hcom.eps>
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 596--597
+ [][] 
+ []
+
 File: ancp.eps Graphic file (type eps)
- <ancp.eps> [8]
+<ancp.eps>
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 609--610
+ [][] 
+ []
+
+[8
+Non-PDF special ignored!
+Non-PDF special ignored!]
 File: org36.jpg Graphic file (type eps)
  <org36.jpg>
 File: org71.jpg Graphic file (type eps)
@@ -369,18 +429,60 @@ File: org71.jpg Graphic file (type eps)
 File: org261.jpg Graphic file (type eps)
  <org261.jpg>
 File: org376.jpg Graphic file (type eps)
-
-<org376.jpg>
+ <org376.jpg>
 File: cmf.eps Graphic file (type eps)
- <cmf.eps> [9] (D:\thesis\pmsJ\template.bbl) [10]
-(D:\thesis\pmsJ\template.aux) ) 
-Here is how much of TeX's memory you used:
- 2554 strings out of 495355
- 28699 string characters out of 3183882
- 91154 words of memory out of 3000000
- 5687 multiletter control sequences out of 15000+200000
- 31511 words of font info for 87 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 27i,13n,24p,1518b,695s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on template.dvi (10 pages, 70348 bytes).
+<cmf.eps>
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 645--646
+ [][] 
+ []
+
+
+Overfull \hbox (6.36511pt too wide) in paragraph at lines 655--665
+ [][] 
+ []
+
+[9
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+
+LaTeX Warning: Reference `chp4' on page 10 undefined on input line 689.
+
+
+Underfull \hbox (badness 5939) in paragraph at lines 700--701
+\OT1/txr/m/n/10 Ac-tu-al-ly, [21] con-sid-er-s matched im-age fea-tures in
+ []
+
+[10
+Non-PDF special ignored!] (D:\thesis\pmsJ\template.bbl [11]) [12
+
+]
+(D:\thesis\pmsJ\template.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2602 strings out of 495354
+ 29006 string characters out of 3183859
+ 89154 words of memory out of 3000000
+ 5693 multiletter control sequences out of 15000+200000
+ 57324 words of font info for 126 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 27i,13n,34p,1541b,695s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/CTEX/MiKTeX/fonts/type1/p
+ublic/txfonts/rtxmi.pfb><C:/CTEX/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:
+/CTEX/MiKTeX/fonts/type1/public/txfonts/txex.pfb><C:/CTEX/MiKTeX/fonts/type1/pu
+blic/txfonts/txsy.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/C
+TEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/tim
+es/utmbi8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/CTEX/MiKTeX
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on template.pdf (12 pages, 126732 bytes).
+PDF statistics:
+ 78 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
