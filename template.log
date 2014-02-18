@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.16)  17 FEB 2014 20:47
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.6.16)  18 FEB 2014 16:56
 entering extended mode
 **template.tex
-(D:\thesis\pmsJ\template.tex
+(F:\share\literature\my_paper\IEICE2013\template.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(D:\thesis\pmsJ\ieice.cls
+(F:\share\literature\my_paper\IEICE2013\ieice.cls
 Document Class: ieice 2011/12/16 v1.8 for Transactions of IEICE
 \c@@paper=\count79
 \tn@cnt=\count80
@@ -240,11 +240,12 @@ Class ieice Warning: a space should be added between 1st and 2nd name: "name".
 
 Class ieice Warning: a space should be added between 1st and 2nd name: "name".
 
-(D:\thesis\pmsJ\template.aux)
+(F:\share\literature\my_paper\IEICE2013\template.aux)
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 48.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 48.
 
- (C:\CTEX\MiKTeX\tex\latex\txfonts\omltxmi.fd
+
+(C:\CTEX\MiKTeX\tex\latex\txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 48.
@@ -321,20 +322,20 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 71.
- [1{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
+ [1
 
 
 ]
 File: pms1.eps Graphic file (type eps)
  <pms1.eps>
 Overfull \hbox (1.37897pt too wide) in paragraph at lines 136--137
- [][] 
+ [][][] 
  []
 
 File: pms2.eps Graphic file (type eps)
 <pms2.eps>
 Overfull \hbox (1.37897pt too wide) in paragraph at lines 143--144
- [][] 
+ [][][] 
  []
 
 [2]
@@ -342,51 +343,48 @@ Overfull \hbox (24.79465pt too wide) detected at line 165
 [] []
  []
 
-[3
-Non-PDF special ignored!
-Non-PDF special ignored!] [4]
+[3] [4]
 File: pms3.eps Graphic file (type eps)
  <pms3.eps>
-Overfull \hbox (1.37897pt too wide) in paragraph at lines 377--378
- [][] 
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 376--377
+ [][][] 
  []
 
-[5
-Non-PDF special ignored!]
-Overfull \hbox (13.44743pt too wide) detected at line 456
+[5]
+Overfull \hbox (13.44743pt too wide) detected at line 455
 [] []
  []
 
 [6]
 
-LaTeX Warning: Reference `fig:c5r' on page 7 undefined on input line 521.
+LaTeX Warning: Reference `fig:c5r' on page 7 undefined on input line 520.
 
 File: pdim.eps Graphic file (type eps)
 <pdim.eps>
-Overfull \hbox (1.37897pt too wide) in paragraph at lines 527--528
- [][] 
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 526--527
+ [][][] 
  []
 
 File: plmax.eps Graphic file (type eps)
 <plmax.eps>
-Overfull \hbox (1.37897pt too wide) in paragraph at lines 541--542
- [][] 
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 540--541
+ [][][] 
  []
 
 File: pvp.eps Graphic file (type eps)
 <pvp.eps>
-Overfull \hbox (1.37897pt too wide) in paragraph at lines 554--555
- [][] 
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 553--554
+ [][][] 
  []
 
 File: pnp.eps Graphic file (type eps)
 <pnp.eps>
-Overfull \hbox (1.37897pt too wide) in paragraph at lines 567--568
- [][] 
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 566--567
+ [][][] 
  []
 
 
-Overfull \hbox (8.0759pt too wide) in paragraph at lines 570--570
+Overfull \hbox (8.0759pt too wide) in paragraph at lines 569--569
 \OT1/txr/m/n/8 ing Al-go-rith-m 3[] with $\OML/txmi/m/it/8 l[] \OT1/txr/m/n/8 =
  5$ and $\OML/txmi/m/it/8  \OT1/txr/m/n/8 = \OMS/txsy/m/n/8 f\OML/txmi/m/it/8 
 g\OT1/txr/m/n/8 (4\OML/txmi/m/it/8 ; \OT1/txr/m/n/8 4)\OML/txmi/m/it/8 ; g\OT1/
@@ -398,30 +396,24 @@ xmi/m/it/8 ; \OT1/txr/m/n/8 0)\OMS/txsy/m/n/8 g$\OT1/txr/m/n/8 .
 
 File: dpm.eps Graphic file (type eps)
 <dpm.eps>
-Overfull \hbox (1.37897pt too wide) in paragraph at lines 581--582
- [][] 
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 580--581
+ [][][] 
  []
 
-[7
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!]
+[7]
 File: hcom.eps Graphic file (type eps)
  <hcom.eps>
-Overfull \hbox (1.37897pt too wide) in paragraph at lines 596--597
- [][] 
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 595--596
+ [][][] 
  []
 
 File: ancp.eps Graphic file (type eps)
 <ancp.eps>
-Overfull \hbox (1.37897pt too wide) in paragraph at lines 609--610
- [][] 
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 608--609
+ [][][] 
  []
 
-[8
-Non-PDF special ignored!
-Non-PDF special ignored!]
+[8]
 File: org36.jpg Graphic file (type eps)
  <org36.jpg>
 File: org71.jpg Graphic file (type eps)
@@ -431,58 +423,36 @@ File: org261.jpg Graphic file (type eps)
 File: org376.jpg Graphic file (type eps)
  <org376.jpg>
 File: cmf.eps Graphic file (type eps)
-
-<cmf.eps>
-Overfull \hbox (1.37897pt too wide) in paragraph at lines 645--646
- [][] 
+ <cmf.eps>
+Overfull \hbox (1.37897pt too wide) in paragraph at lines 644--645
+ [][][] 
  []
 
 
-Overfull \hbox (6.36511pt too wide) in paragraph at lines 655--665
- [][] 
+Overfull \hbox (6.36511pt too wide) in paragraph at lines 654--664
+ [][][] 
  []
 
-[9
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!]
-
-LaTeX Warning: Reference `chp4' on page 10 undefined on input line 689.
-
-
-Underfull \hbox (badness 5939) in paragraph at lines 700--701
+[9]
+Underfull \hbox (badness 5939) in paragraph at lines 699--700
 \OT1/txr/m/n/10 Ac-tu-al-ly, [21] con-sid-er-s matched im-age fea-tures in
  []
 
-[10
-Non-PDF special ignored!] (D:\thesis\pmsJ\template.bbl [11]) [12
+[10] (F:\share\literature\my_paper\IEICE2013\template.bbl [11]) [12
 
 ]
-(D:\thesis\pmsJ\template.aux)
+(F:\share\literature\my_paper\IEICE2013\template.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2602 strings out of 495354
- 29006 string characters out of 3183859
+ 2559 strings out of 495355
+ 29007 string characters out of 3183882
  89154 words of memory out of 3000000
- 5693 multiletter control sequences out of 15000+200000
- 57324 words of font info for 126 fonts, out of 3000000 for 9000
+ 5692 multiletter control sequences out of 15000+200000
+ 31511 words of font info for 87 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  27i,13n,34p,1541b,695s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/CTEX/MiKTeX/fonts/type1/p
-ublic/txfonts/rtxmi.pfb><C:/CTEX/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:
-/CTEX/MiKTeX/fonts/type1/public/txfonts/txex.pfb><C:/CTEX/MiKTeX/fonts/type1/pu
-blic/txfonts/txsy.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/C
-TEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/tim
-es/utmbi8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/CTEX/MiKTeX
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on template.pdf (12 pages, 126732 bytes).
-PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+Output written on template.dvi (12 pages, 82136 bytes).

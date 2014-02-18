@@ -56,11 +56,11 @@ Object detection, Fast voting
 
 \section{Introduction}
 
-Bag-of-features~\cite{obof,bgf} schema can be considered as the watershed between traditional and modern detection methods. Instead of considering each target object as a collection of raw optical elements, i.e., pixels, the schema tries to consider each object as a set of semantic elements or so-called object parts which are usually some strong local image features. Then one visual object is said to be a target object if it possesses some certain local features of certain numbers, while does not contain other certain local features of certain numbers. While this is quite straightforward, the very precious information encoded in local features' relative positions is left over. Following some pioneering ideas~\cite{spmk,ac30}, this chapter proposes a detection method which combines spatial and visual information of local image features in a  way pursuing both efficiency and effectiveness.
+Bag-of-features~\cite{obof,bgf} schema can be considered as the watershed between traditional and modern detection methods. Instead of considering each target object as a collection of raw optical elements, i.e., pixels, the schema tries to consider each object as a set of semantic elements or so-called object parts which are usually some strong local image features. Then one visual object is said to be a target object if it possesses some certain local features of certain numbers, while does not contain other certain local features of certain numbers. While this is quite straightforward, the very precious information encoded in local features' relative positions is left over. Following some pioneering ideas~\cite{spmk,ac30}, this paper proposes a detection method which combines spatial and visual information of local image features in a  way pursuing both efficiency and effectiveness.
 
  Besides, inferring object status in a bottom-up manner fails to capture global information of each target object from the beginning. And this is also why recently the detection results of Hough transform based methods need refinement by discriminative methods in order to be competitive. Still the way how to use spatial information of local features is very illuminate.
 
- Just as said in~\cite{ac27}, Hough transform based methods and sliding-window methods are the two sides of the same coin. The method proposed in this chapter calculates confidence of a target object class for each sub-window in an image. Instead of considering each object as a collection of visual patterns (appearance of local features), the method considers each object as a set of visual-spatial patterns. One object is considered as a set of points. Each point is a digital vector, with the last two dimensions the relative $x-$ and $y-$ coordinates to object center, and SIFT after principal component analysis as the remaining dimensions. The training procedure is about collecting all such visual-spatial points into a point set, which acts as a super template. During detection, each sub-image is considered as a point set, and it is matched against the super template. The confidence is then the match score.
+ Just as said in~\cite{ac27}, Hough transform based methods and sliding-window methods are the two sides of the same coin. The method proposed in this paper calculates confidence of a target object class for each sub-window in an image. Instead of considering each object as a collection of visual patterns (appearance of local features), the method considers each object as a set of visual-spatial patterns. One object is considered as a set of points. Each point is a digital vector, with the last two dimensions the relative $x-$ and $y-$ coordinates to object center, and SIFT after principal component analysis as the remaining dimensions. The training procedure is about collecting all such visual-spatial points into a point set, which acts as a super template. During detection, each sub-image is considered as a point set, and it is matched against the super template. The confidence is then the match score.
 
  The key to this method is how to define a match score for two point sets. Here pyramid matching procedure is employed, not only for efficiency, but also for combining visual and spatial information from local features in an effective manner. The visual-spatial space is divided from fine to coarse. Under a certain dividing parameter, points from the two matching point sets are considered as match if they fall into the same grid, and they are excluded from the respective point sets. The procedure continues till one point set is empty. Then the numbers of matched pairs under each dividing method is counted, and a weighted sum of all these numbers are considered as the match score for two point set, which will be referred to as Pyramid Match Score, or PMS for short. The weights under all dividing methods are learned during training, and how to divide the visual-spatial space is of great importance.
 
@@ -110,7 +110,7 @@ The pyramid match score method is most related to methods using~\cite{pmk} or~\c
 \label{dt5}
 In this section, firstly the typical procedure of pyramid matching is reviewed, and how a match score between two point sets by using pyramid matching is defined. Then based on the defined matric, how from the training examples, a super template can be learnt and how the super template can be used for object detection in a test image is proposed. In the definition of the matching score, there are parameters very important, finally in this section, how these parameters are estimated is introduced in three sub-sections.
 
-In the remaining content of this chapter, all $i$s, $j$s and $k$s are local symbols.
+In the remaining content of this paper, all $i$s, $j$s and $k$s are local symbols.
 \subsection{Pyramid Matching}
 
 
@@ -197,7 +197,7 @@ Instead of following~\cite{pmk}, PMS does not server as kernel functions for SVM
 
 
 
-\begin{algorithm}[chapter]
+\begin{algorithm}
 
 
 
@@ -235,8 +235,7 @@ For detection, a most popular pipeline is employed, as in Algorithm \ref{alg:dt}
 \[\eta=[x_{\eta},y_{\eta},w_{\eta},h_{\eta}].\] So each $\eta$ is defined by its starting $(x,y)$ coordinate, its width, and its height. To generate $\{\eta \}$, the sliding window schema is followed, and it works by enumerating all possible rectangles by considering sub-windows' positions and sizes. In Algorithm \ref{alg:dt}, ${\Omega }$ is the set of final detection results, ${\rm P}_{th}$ is a threshold to accept hypotheses as detections, $I_{te}$ is a test image, and $S_{\eta}$ is the point set generated by local features contained in ${\eta}$.
 
 
-\begin{algorithm}[chapter]
-
+\begin{algorithm}
 
 
 
@@ -331,7 +330,7 @@ In fact, when (\ref{eq:pms3}) is satisfied, (\ref{eq:pms1}) and (\ref{eq:pms2}) 
 
 Though (\ref{eq:pms2}) can be used to calculate a pyramid match score for two point sets, given any set, $\gamma$, still the dividing methods and the order of the dividing methods will affect performance. For a largest fineness level, $l_{max},l_{max}\in N$, $\gamma$ is defined in Algorithm \ref{alg:order}.
 
-\begin{algorithm}[chapter]
+\begin{algorithm}
 
 
 
@@ -483,7 +482,7 @@ Till now, Algorithm \ref{alg:tm} gives how $S_{\bf T}$ can be generated,  Algori
 
 \section{Experimental Results}
 \label{exp5}
-The key value of the method is the proposed matric between an object hypothesis and the super template trained from training examples. Accordingly, two experiments are carried on and the results are reported in this chapter.
+The key value of the method is the proposed matric between an object hypothesis and the super template trained from training examples. Accordingly, two experiments are carried on and the results are reported in this paper.
 
 
 \subsection{UIUC Cars}
@@ -554,7 +553,7 @@ In Fig. \ref{fig:c53}, detection performance by using different $l_{max}$s is gi
 \includegraphics[width=0.48\textwidth]{pvp.eps}
 
 
-\caption[Result evaluation by using results from only visual or spatial information]{Result evaluation on UIUC cars by using visual, spatial, and visual $+$ spatial information.}
+\caption{Result evaluation on UIUC cars by using visual, spatial, and visual $+$ spatial information.}
 \label{fig:c54}
 \end{figure}
 
@@ -679,14 +678,14 @@ What is different from the experiments on UIUC cars is that, $\omega$s are given
 \caption[Result comparison on VOC2007 cars]{Result comparison on VOC2007 cars ({\color{red}Note, results by the proposed method still need to be added}).}
 \label{fig:c57}
 \end{figure}
- 
+
 \end{comment}
 \section{Discussion}
 \label{dis5}
 \subsection{Time Complexity}
 The time complexity of find a sub-optimal best matching between two point sets is $O(dml_{max}^2)$ when pyramid matching is employed. Here, $d$ is the dimension of each visual-spatial point, $m$ is the size of the point set of each object hypothesis, and $l_{max}$ is the largest fineness level, which is usually 5. The match complexity of~\cite{pmk} is $O(dmL), L=l_{max}$. However, this is just the time complexity of matching between two point sets. To give the confidence of a hypothesis, the time complexity of the proposed method is still $O(dml_{max}^2)$, while for~\cite{pmk}, it is $O(dml_{max}n_{sup})$, where $n_{sup}$ is the number of support vectors in the used SVM, which is usually larger than 5. So, considering about the time complexity to give confidence for a hypothesis, the proposed method is no worse than~\cite{pmk}. Also $n_{sup}$ is related to the training dataset, while $l_{max}$ is less related. The case of ~\cite{spmk} is almost the same with~\cite{pmk}.
 
-In theory, the time complexity of methods based on Hough transform based methods should be $O(dm{n_{tr}}^{\frac 1 {1+\varepsilon}})$, if the $k$NN framework is employed as in Chapter \ref{chp4}. Here $n_{tr}$ is the size of the codebook, which in the case of UIUC cars is about $50\times 500=25,000$. And, $\varepsilon > 0$ is a factor which affects the quality of the $k$NN. And compared to PMS, this is 1,000 times time-consuming. However, methods based on Hough transform usually does not consider about object detection in the sliding window manner, which makes such methods unable to well deal with scale changes.
+In theory, the time complexity of methods based on Hough transform based methods should be $O(dm{n_{tr}}^{\frac 1 {1+\varepsilon}})$, if the $k$NN framework is employed. Here $n_{tr}$ is the size of the codebook, which in the case of UIUC cars is about $50\times 500=25,000$. And, $\varepsilon > 0$ is a factor which affects the quality of the $k$NN. And compared to PMS, this is 1,000 times time-consuming. However, methods based on Hough transform usually does not consider about object detection in the sliding window manner, which makes such methods unable to well deal with scale changes.
 
 The time complexity of DPM should be an exponential function to the number of parts used. Tricks can be used to avoid such heavy calculation in exchange of performance.
 
@@ -705,9 +704,9 @@ Another advantage of PMS is that the number of parameters which need estimating 
 
 To summarize, the way how the proposed method combines visual and spatial information of local features is theoretically promising.
 
-\section{Chapter Conclusion}
+\section{Conclusion}
 \label{conc5}
-This chapter proposes a method to efficiently and effectively combine visual and spatial information of the local image features. Experiments show the method is comparable with state-of-the-art detection methods on benchmark datasets. What make the method different are: 1) pyramid matching between a codebook and an  object hypothesis, 2) the set of methods to dividing the visual-spatial space, and 3) the way to define or learn weights for corresponding dividing method.
+This paper proposes a method to efficiently and effectively combine visual and spatial information of the local image features. Experiments show the method is comparable with state-of-the-art detection methods on benchmark datasets. What make the method different are: 1) pyramid matching between a codebook and an  object hypothesis, 2) the set of methods to dividing the visual-spatial space, and 3) the way to define or learn weights for corresponding dividing method.
 
 The underlying principle of PMS, which is defined by the order of dividing methods in Algorithm \ref{alg:order}, is that use the template to explain every visual-spatial point of an object hypothesis at the best visual-spatial level.
 
